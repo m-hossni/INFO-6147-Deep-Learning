@@ -10,7 +10,8 @@ The objective of this project is to create a classifier with reasonable accuracy
 # Dataset Description
 Tiny ImageNet dataset is a group of colored images with 200 classes. The dataset contains 100,000 samples with balanced distribution of 500 images per class for training (50 for validation and 50 for testing). The images in this dataset are of size 64X64X3.
 
-![b7km9pkp](https://github.com/user-attachments/assets/21991e88-86b7-4fb3-b95a-090bef3f1cc3)
+![b7km9pkp](https://github.com/user-attachments/assets/bdd062a6-0e70-4862-bb4d-330b4b374c86)
+
 
 
 # Methodology
@@ -24,5 +25,6 @@ Since the dataset contains 200 classes and images with size of 64X64X3, computat
 If time permits, the backbone of the network developed for classification task will be used to create an Autoencoder. The goal is to use the pretrained model and the Latent vectors to create masked images from the input. This will be done using the model filters to extract model activation maps which will be compared with the generated image from the decoder.
 The final product should have the following network design.
 
- ![Screenshot 2024-11-17 222402](https://github.com/user-attachments/assets/bca0a412-4d3f-422e-8eda-ad467a9bb150)
+![image](https://github.com/user-attachments/assets/a0426285-a6a1-4818-9a8b-0c481bb325b8)
+
 
